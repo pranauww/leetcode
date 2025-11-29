@@ -19,7 +19,7 @@ class HitCounter:
                 left = mid + 1
             else:
                 right = mid - 1
-
+        
         return (len(self.hits) - left)
 
 # Your HitCounter object will be instantiated and called as such:
